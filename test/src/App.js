@@ -1,11 +1,14 @@
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        ㅁㄷㄴㅁㅁㄴㅇㅁㄴㅇ
-      </header>
+
+
+      <BrowserRouter basename="/react-test">
+        test
+      </BrowserRouter>
     </div>
   );
 }
